@@ -1,9 +1,8 @@
 from models.supplier import Supplier
-from helpers import uuid_generator
 
 class Product():
-    def __init__(self, name, category, stock, price, tax, made_in, *supplier):
-        self.SKU = uuid_generator.create(8)
+    def __init__(self, SKU,name, category, stock, price, tax, made_in, *supplier):
+        self.SKU = SKU
         self.name = name
         self.category = category
         self.stock = stock

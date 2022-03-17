@@ -1,8 +1,6 @@
-from helpers import uuid_generator
-
 class Seller:
-    def __init__(self, rut, name, last, section):
-        self.id_seller = uuid_generator.create(8)
+    def __init__(self, id_seller,rut, name, last, section):
+        self.id_seller = id_seller
         self.rut = rut
         self.name = name
         self.last = last
