@@ -1,11 +1,11 @@
 # from datetime import datetime
 # datetime.today().strftime('%d-%m-%Y')
 class Customer:
-    def __init__(self, id_customer,rut, name, last, email, join_date, balance):
+    def __init__(self, id_customer, rut, name, surname, email, join_date, balance):
         self.id_customer = id_customer
         self.rut = rut
         self.name = name
-        self.last = last
+        self.surname = surname
         self.email = email
         self.join_date = join_date
         self.__balance = balance

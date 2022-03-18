@@ -1,7 +1,7 @@
 from models.supplier import Supplier
 
 class Product():
-    def __init__(self, SKU,name, category, stock, price, tax, made_in, *supplier):
+    def __init__(self, SKU, name, category, stock, price, tax, made_in, *supplier):
         self.SKU = SKU
         self.name = name
         self.category = category

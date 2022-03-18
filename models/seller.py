@@ -1,9 +1,9 @@
 class Seller:
-    def __init__(self, id_seller,rut, name, last, section):
+    def __init__(self, id_seller,rut, name, surname, section):
         self.id_seller = id_seller
         self.rut = rut
         self.name = name
-        self.last = last
+        self.surname = surname
         self.section = section
         self.__profit = 0.05
 
